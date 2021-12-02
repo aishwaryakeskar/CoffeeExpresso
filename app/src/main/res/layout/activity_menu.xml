@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.coffeeexpresso.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="Enter Name"
+            android:textColorHint="#0000FF"
+            android:textColor="#8B008B"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="* Select drinks to order *"
+            android:textSize="32dp"
+            android:textColor="#8B008B"/>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="2">
+
+
+            <ImageView
+                android:id="@+id/frappe"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/frappe" />
+
+            <ImageView
+                android:id="@+id/mocha"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/mocha" />
+
+            <CheckBox
+                android:id="@+id/frappech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Frappe\nRs. 80"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/mochach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Moccha\nRs. 60"
+
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/macchiato"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/macchiato" />
+
+
+            <ImageView
+                android:id="@+id/cappuccino"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/cappuccino" />
+
+            <CheckBox
+                android:id="@+id/macchiatoch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Macchiato\nRs. 80"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cappuccinoch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Cappuccino\nRs. 80"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/chocolate"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/chocolate" />
+
+            <ImageView
+                android:id="@+id/cocoa"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/cocoa" />
+
+            <CheckBox
+                android:id="@+id/chocolatech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Chocolate\nRs. 60"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cocoach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Cocoa\nRs. 50"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/fredo"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/fredo" />
+
+            <ImageView
+                android:id="@+id/glace"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/glace" />
+
+            <CheckBox
+                android:id="@+id/fredoch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Fredo\nRs. 60"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/glacech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Glace\nRs. 50"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/latte"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/latte" />
+
+            <ImageView
+                android:id="@+id/americano"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/americano" />
+
+            <CheckBox
+                android:id="@+id/lattech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Latte\nRs. 60"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/americanoch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Americano\nRs. 50"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/irish"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/irish" />
+
+
+            <ImageView
+                android:id="@+id/expresso"
+                android:layout_width="180dp"
+                android:layout_height="280dp"
+                android:src="@drawable/expresso" />
+
+            <CheckBox
+                android:id="@+id/irishch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Irish\nRs. 80"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/expressoch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:fontFamily="casual"
+                android:text="Expresso\nRs. 70"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+
+        <Button
+            android:id="@+id/order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20sp"
+            android:text="Order"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</ScrollView>
